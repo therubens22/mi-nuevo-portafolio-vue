@@ -91,13 +91,15 @@ export default {
   position: fixed;
   top: 0;
   right: 0;
-  width: 80%;
-  height: 100vh;
+  width: 100%;
+  height: 40vh;
   background: var(--secundario);
   transform: translateX(100%); /* 🔥 Ocultamos completamente */
   transition: transform 0.3s ease-in-out;
   z-index: 50;
   box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 0; /* Ajusta el padding a 0 para evitar el espacio extra */
+  justify-content: center; /* Centra los elementos verticalmente */
 }
 
 /* Menú abierto */
@@ -109,6 +111,8 @@ export default {
 .nav-links li {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  width: 100%; /* Ocupa todo el ancho para asegurar que los enlaces se alineen */
+  text-align: center; /* Asegura que los enlaces se centren */
 }
 
 .nav-open li {
@@ -120,7 +124,7 @@ export default {
   color: white;
   text-decoration: none;
   font-size: 22px;
-  padding: 15px 0;
+  padding: 25px 0;
   display: block;
 }
 
