@@ -1,0 +1,69 @@
+@import './base.css';
+
+:root {
+  --blanco: #ffffff;
+  --primario: #99FFFF;
+  --secundario: #0097A7;
+  --gris: #757575;
+  --oscuro: #212121;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+ 
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700; /* Hace que todo el texto sea grueso */
+
+}
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  border-radius: 50%; /* Hace que el hover sea circular */
+  
+}
+
+.social-links a:hover {
+  box-shadow: 0 0 20px  var(--secundario); /* Sombra circular suave */
+  
+}
+
+
+
+
+@media (min-width: 1024px) {
+  body {
+    justify-content: space-between;
+  }
+}
+
+.contenedor-secciones {
+  display: flex;
+  justify-content: space-between; /* Espaciado uniforme */
+  align-items: stretch; /* Hace que todos tengan la misma altura */
+  gap: 2rem; /* Espaciado entre secciones */
+}
+
+.seccion {
+  flex: 1; /* Hace que todos ocupen el mismo espacio */
+  min-height: 500px; /* Altura mínima para evitar que se encojan demasiado */
+  padding: 2rem;
+  background: #f4f4f4; /* Color de fondo opcional */
+  border-radius: 10px; /* Esquinas redondeadas */
+  text-align: center;
+}
