@@ -2,6 +2,8 @@
     <section id="contact" class="contact">
       
         <h2>Contacto</h2>
+        <p>🚀 ¡Estoy listo para ayudarte con tu proyecto! Completa el formulario y me pondré en contacto contigo.</p>
+
         <form @submit.prevent="enviarFormulario">
           <label for="nombre">Nombre:</label>
           <input type="text" id="nombre" v-model="form.nombre" required />
@@ -12,7 +14,7 @@
           <label for="mensaje">Mensaje:</label>
           <textarea id="mensaje" v-model="form.mensaje" required></textarea>
   
-          <button type="submit">Enviar</button>
+          <button type="submit">¡Envíame tu mensaje!</button>
   
           <p v-if="mensajeEnviado" class="mensaje-exito">
             ¡Mensaje enviado con éxito!
@@ -72,6 +74,11 @@
 h2 {
     font-size: 50px;
     margin-bottom: 20px;
+}
+
+p {
+  margin: 15px;
+  font-size: 20px;
 }
 
 form {

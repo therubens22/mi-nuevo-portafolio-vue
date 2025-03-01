@@ -3,8 +3,8 @@
     <div class="container">
       <h2>Mi Nombre es: Orlando</h2>
       <p>
-        Soy un apasionado por la programación. La disciplina, dedicación y compromiso son tres factores que me definen.
-        Me gusta dar siempre lo mejor de mí en todo, por más simple o complejo que pueda ser el desafío.
+        Desarrollador front-end especializado en Vue.js y diseño web responsivo. 
+        Ayudo a empresas y emprendedores a construir sitios modernos y optimizados.
       </p>
       
       <!-- Enlaces sociales -->
@@ -12,12 +12,13 @@
         <a href="https://github.com/therubens22" target="_blank">
           <img src="@/assets/img/iconos/git.svg" alt="git" class="icono" />
         </a>
-        <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">
+        <a href="https://www.linkedin.com/in/orlando-escalante-738048156/" target="_blank">
           <img src="@/assets/img/iconos/linkedin.svg" alt="linkedin" class="icono" />
         </a>
-        <a href="mailto:tuemail@example.com">
-          <img src="@/assets/img/iconos/gmail.svg" alt="gmail" class="icono" />
-        </a>
+        <a href="mailto:orlandorubenescalante@gmail.com">
+  <img src="@/assets/img/iconos/gmail.svg" alt="gmail" class="icono" />
+</a>
+
       </div>
 
       <!-- Botón de descarga -->
