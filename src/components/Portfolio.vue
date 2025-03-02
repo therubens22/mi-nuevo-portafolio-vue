@@ -241,82 +241,67 @@ a:hover {
   color: var(--secundario);
 }
 
-
 @media (max-width: 1024px) {
   .carousel {
-    width: 100%;
+    width: 90%;
   }
-  
+
   h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
-  
+
   h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
 
   p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 768px) {
   .carousel {
-    width: 95%;
+    width: 100%;
   }
 
   .carousel-item img {
     max-width: 90%;
   }
 
-  button {
-    padding: 8px;
-    font-size: 16px;
+  button, a {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 1.875rem; /* 30px */
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 
   p {
-    font-size: 14px;
-  }
-
-  a {
-    font-size: 16px;
-    padding: 8px 15px;
+    font-size: 0.875rem; /* 14px */
   }
 }
 
 @media (max-width: 480px) {
-  .carousel {
-    width: 100%;
-  }
-
   h2 {
-    font-size: 25px;
+    font-size: 1.5625rem; /* 25px */
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
   }
 
   p {
-    font-size: 12px;
+    font-size: 0.75rem; /* 12px */
   }
 
-  button {
-    padding: 5px;
-    font-size: 14px;
-  }
-
-  a {
-    font-size: 14px;
-    padding: 6px 12px;
+  button, a {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
   }
 }
 

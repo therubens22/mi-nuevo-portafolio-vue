@@ -20,8 +20,8 @@
 const skills = [
   { name: "HTML", level: 90 },
   { name: "CSS", level: 90 },
-  { name: "JavaScript", level: 70 },
-  { name: "Vue", level: 50 },
+  { name: "JavaScript", level: 75 },
+  { name: "Vue", level: 65 },
   { name: "Python", level: 50 },
   { name: "Tailwind", level: 70 },
 ];
@@ -78,7 +78,7 @@ h2 {
 
 .progress {
   height: 100%;
-  background: var(--primario, #00bcd4);
+  background: var(--secundario, #00bcd4);
   transition: width 0.5s ease-in-out;
 }
 
